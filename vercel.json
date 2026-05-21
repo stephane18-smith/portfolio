@@ -11,16 +11,16 @@
       "dest": "/static/$1"
     },
     {
+      "src": "/assets/(.*)",
+      "dest": "/assets/$1"
+    },
+    {
       "src": "/images/(.*)",
       "dest": "/images/$1"
     },
     {
-      "src": "/images/projects/(.*)",
-      "dest": "/images/projects/$1"
-    },
-    {
-      "src": "/cv/(.*)",
-      "dest": "/cv/$1"
+      "src": "/(.*\\.(js|css|map|json|png|jpg|jpeg|svg|ico|webp))",
+      "dest": "/$1"
     },
     {
       "src": "/(.*)",
