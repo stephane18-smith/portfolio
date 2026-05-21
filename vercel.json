@@ -5,21 +5,40 @@
   "devCommand": "npm start",
   "installCommand": "npm install",
   "framework": "create-react-app",
+  "public": true,
   "routes": [
     {
       "src": "/static/(.*)",
+      "headers": { "Cache-Control": "public, max-age=31536000, immutable" },
       "dest": "/static/$1"
     },
     {
-      "src": "/assets/(.*)",
-      "dest": "/assets/$1"
-    },
-    {
       "src": "/images/(.*)",
+      "headers": { "Cache-Control": "public, max-age=31536000, immutable" },
       "dest": "/images/$1"
     },
     {
-      "src": "/(.*\\.(js|css|map|json|png|jpg|jpeg|svg|ico|webp))",
+      "src": "/cv/(.*)",
+      "dest": "/cv/$1"
+    },
+    {
+      "src": "/manifest.json",
+      "dest": "/manifest.json"
+    },
+    {
+      "src": "/favicon.ico",
+      "dest": "/favicon.ico"
+    },
+    {
+      "src": "/asset-manifest.json",
+      "dest": "/asset-manifest.json"
+    },
+    {
+      "src": "/robots.txt",
+      "dest": "/robots.txt"
+    },
+    {
+      "src": "/(.*\\.(js|css|map|json|png|jpg|jpeg|svg|ico|webp|txt))",
       "dest": "/$1"
     },
     {
