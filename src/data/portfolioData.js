@@ -1,9 +1,9 @@
-// src/data/portfolioData.js - Version sans imports d'images
+// src/data/portfolioData.js - Version corrigée (sans imports)
 export const portfolioData = {
     name: "Youmbi Poutcheu Freddy Stephane",
     title: "Développeur Web Fullstack",
     photo: "/assets/images/profile.jpg",
-    bio: "Passionné par la programmation...",
+    bio: "Passionné par la programmation avec une expérience dans les projets de développement de plateformes, je me distingue par mon dynamisme, ma créativité et mon sens de leadership. Je suis à la recherche d'un emploi à plein temps afin de mettre mes compétences au profit d'une entreprise innovante.",
     contact: {
       email: "poutcheustephane18@gmail.com",
       phone: "+237 655 648 331",
