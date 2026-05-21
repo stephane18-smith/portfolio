@@ -1,0 +1,10 @@
+{
+  "name": "Freddy Dev Portfolio",
+  "short_name": "FreddyDev",
+  "description": "Développeur Web Fullstack - React.js, PHP",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#C62828",
+  "background_color": "#0a0a0a",
+  "icons": []
+}
