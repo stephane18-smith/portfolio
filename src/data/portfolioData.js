@@ -1,15 +1,9 @@
-// src/data/portfolioData.js - Version complète avec imports d'images
-import profileImg from '../assets/images/profile.jpg';
-import stelonneImg from '../assets/images/projects/stelonne-market.png';
-import mdShoppingImg from '../assets/images/projects/md-shopping.png';
-import bestfriendsImg from '../assets/images/projects/bestfriends.png';
-import micBoutiqueImg from '../assets/images/projects/mic-boutique.png';
-
+// src/data/portfolioData.js - Version sans imports d'images
 export const portfolioData = {
     name: "Youmbi Poutcheu Freddy Stephane",
     title: "Développeur Web Fullstack",
-    photo: profileImg,
-    bio: "Passionné par la programmation avec une expérience dans les projets de développement de plateformes, je me distingue par mon dynamisme, ma créativité et mon sens de leadership. Je suis à la recherche d’un emploi à plein temps afin de mettre mes compétences au profit d’une entreprise innovante.",
+    photo: "/assets/images/profile.jpg",
+    bio: "Passionné par la programmation...",
     contact: {
       email: "poutcheustephane18@gmail.com",
       phone: "+237 655 648 331",
@@ -90,7 +84,7 @@ export const portfolioData = {
         name: "Stelonne Market",
         description: "Boutique en ligne complète avec système de panier et paiement intégré",
         tech: ["React.js", "Node.js", "MongoDB"],
-        image: stelonneImg,
+        image: "/assets/images/projects/stelonne-market.png",
         link: "https://stelonne-market.online",
         year: "2025"
       },
@@ -99,7 +93,7 @@ export const portfolioData = {
         name: "MD Shopping",
         description: "Plateforme e-commerce de vêtements, chaussures et accessoires avec commande par WhatsApp",
         tech: ["React.js", "CSS3", "WhatsApp API", "LocalStorage"],
-        image: mdShoppingImg,
+        image: "/assets/images/projects/md-shopping.png",
         link: "https://md-shopping.vercel.app",
         github: "https://github.com/stephane18-smith/md-shop",
         year: "2025"
@@ -109,7 +103,7 @@ export const portfolioData = {
         name: "Best Friends",
         description: "Site de précommande de produits d'entretien avec interface moderne",
         tech: ["HTML", "CSS3", "js", "Vercel"],
-        image: bestfriendsImg,
+        image: "/assets/images/projects/bestfriends.png",
         link: "https://bestfriends-b4ix.vercel.app",
         github: "https://github.com/stephane18-smith/bestfriends",
         year: "2025"
@@ -119,7 +113,7 @@ export const portfolioData = {
         name: "MIC Boutique",
         description: "Boutique en ligne pour Mouaha Industry Company",
         tech: ["HTML", "PHP", "CSS", "JS", "LWS", "Bootstrap", "MySQL"],
-        image: micBoutiqueImg,
+        image: "/assets/images/projects/mic-boutique.png",
         link: "https://mouahaindustrycompanysarl.com/boutique",
         year: "2025"
       }
